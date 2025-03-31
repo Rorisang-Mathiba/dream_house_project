@@ -5,14 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dream House</title>
   </head>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+  />
   <link rel="stylesheet" href="style.css" />
   <body>
     <header>
       <nav class="navbar section-content">
         <a href="#" class="nav-logo">
-          <h2 class="logo-text">Dream House 🏠</h2>
+          <h2 class="logo-text">My House 🏠</h2>
         </a>
         <ul class="nav-menu">
+          <button id="menu-close-button" class="fas fa-times"></button>
           <li class="nav-item">
             <a href="#" class="nav-link">Home</a>
           </li>
@@ -32,7 +37,33 @@
             <a href="#" class="nav-link">Contact</a>
           </li>
         </ul>
+        <button id="menu-open-button" class="fas fa-bars"></button>
       </nav>
     </header>
+    <main>
+      <section class="hero-section">
+        <div class="section-content">
+          <div class="hero-details">
+            <h2 class="title">Dream House</h2>
+            <h3 class="subtitle">My ultimate Dream House coming to life!</h3>
+            <p class="description">
+              Welcome to my dream home vision board, where you'll see what type
+              of vision I have for my future home.
+            </p>
+            <div class="buttons">
+              <a href="#" class="button order-now">Order Now</a>
+              <a href="#" class="button contact-us">Contact Us</a>
+            </div>
+          </div>
+          <div class="hero-image-wrapper">
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/161/392/original/15_Stunning_Farmhouse_Garden_Ideas_to_Transform_Your_Outdoor_Space_Today!.jpeg?1742981136"
+              alt=""
+              class="hero-image"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
